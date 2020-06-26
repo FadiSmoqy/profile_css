@@ -6,7 +6,7 @@
   
     width: 100vw;
     height: 129vh;
-    width: 66%;
+    width: 1370px;
     margin: auto;
     grid-gap:.8em ;
 }
@@ -252,4 +252,29 @@ i {
     color: white;
     padding: 4px 3px;
     border-radius: 5px;
+}
+/* box-3*/
+
+.fa-fw{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+
+/*
+media querey
+*/
+@media screen and (max-width: 1400px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2 , 1fr);
+      
+        width: 100vw;
+        height: 129vh;
+        width: 100%;
+        margin: auto;
+        grid-gap:.8em ;
+    }
 }
